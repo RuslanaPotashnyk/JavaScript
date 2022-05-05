@@ -149,3 +149,37 @@
 
 // - створити функцію яка повертає найменьше число з масиву
 
+// let minimal = (array) => {
+//     let min = array[0];
+//     for (const minElement of array) {
+//       if (minElement < min) min = minElement;
+//     }
+//     return min;
+// }
+// minimal([1,2,3]);
+
+// - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+
+// let sum = (array) => {
+//     let total = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         total += array[i];
+//     }
+//     return total;
+// }
+// sum([1,2,10]);
+
+// -створити функцію, яка приймає масив з 2х об'єктів, та міняє їх місцями.
+
+// let revers = (array) => {
+//     let ri = array.length - 1;
+//     let reversArray = [];
+//     for (const arrayElement of array) {
+//         reversArray[ri] = arrayElement;
+//         ri--;
+//     }
+// }
+// revers([
+//     { id: 2, name: 'Roman', age: 28},
+//     { id: 3, name: 'Vitaliy', age: 20}
+// ])
